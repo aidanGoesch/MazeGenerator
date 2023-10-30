@@ -218,7 +218,7 @@ class Grid:
                             break
 
 
-            pygame.time.wait(time_to_wait)
+            pygame.time.wait(20)
             self._draw_screen()
             self._handle_events()
 
